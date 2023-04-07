@@ -15,8 +15,10 @@
   body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    color: black;
+    color: #000000;
     background: #FFFFFF;
+    width: 100%;
+    height: 100%;
   }
   
   a {
@@ -26,3 +28,88 @@
   button {
     border-width: 0;
   }
+.wrapper {
+  .header {
+    width: 100%;
+    height: 100px;
+    background: #0a121f;
+
+    .header__container {
+      max-width: 1146px;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .header__container__left-block {
+        display: flex;
+        justify-content: space-between;
+
+        .header__container__left-block__logo-and-title {
+          display: flex;
+          align-items: center;
+          margin-right: 84px;
+
+          .header__container__left-block__logo-and-title__logo {
+            margin-right: 15px;
+          }
+          .header__container__left-block__logo-and-title__header-title {
+
+            h4 {
+              font-weight: 600;
+              font-size: 22.5455px;
+              line-height: 31px;
+              color: #3A68B8;
+            }
+          }
+          }
+        .header__container__left-block__nav-bar {
+          display: flex;
+          align-items: center;
+
+          .header__container__left-block__nav-bar__item {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            color: #FFFFFF;
+            cursor: pointer;
+            margin-right: 40px;
+
+            &:hover {
+              color: #c2c2c2;
+            }
+
+            &:last-of-type {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+      .header__container__right-block {
+      }
+    }
+  }
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  background: #3A68B8;
+  border-radius: 5px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.btn_authorizations {
+  width: 112px;
+  height: 52px;
+  font-size: 16px;
+  line-height: 22px;
+
+  &:hover {
+    background: #3a68b89d;
+  }
+}
