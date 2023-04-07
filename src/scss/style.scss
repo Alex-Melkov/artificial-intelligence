@@ -90,6 +90,89 @@
       }
     }
   }
+
+  .home {
+    width: 100%;
+    background: #09111f;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+    .home__container {
+      max-width: 1350px;
+      margin: 0 auto;
+
+      .home__container__top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 90px;
+
+        .home__container__left-block {
+          display: flex;
+          align-items: center;
+          margin-right: 114px;
+
+          .home__container__left-block__main {
+
+            .home__container__left-block__main__mini-title {
+              margin-bottom: 10px;
+
+              h5 {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 160%;
+                text-transform: uppercase;
+                color: #3A68B8;
+              }
+            }
+            .home__container__left-block__main__title {
+              margin-bottom: 40px;
+
+              h1 {
+                font-style: normal;
+                font-weight: 800;
+                font-size: 55px;
+                line-height: 130%;
+                color: #FFFFFF;
+              }
+            }
+            .home__container__left-block__main__text {
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 160%;
+              color: #FFFFFF;
+              opacity: 0.7;
+              max-width: 558px;
+              margin-bottom: 50px;
+            }
+            .home__container__left-block__main__buttons {
+              display: flex;
+
+              button {
+                &:first-of-type {
+                  margin-right: 20px;
+                }
+              }
+            }
+          }
+        }
+        .home__container__right_block {
+        }
+      }
+
+      .home__container__logotype-block {
+          .home__container__logotype-block__logotype-container {
+            display: flex;
+            img {
+              margin-right: 70px;
+
+              &:last-of-type {
+                margin-right: 0;
+              }
+            }
+          }
+      }
+    }
+  }
 }
 
 .btn {
@@ -101,6 +184,10 @@
   border-radius: 5px;
   color: #FFFFFF;
   cursor: pointer;
+
+  &:hover {
+    background: #3a68b89d;
+  }
 }
 
 .btn_authorizations {
@@ -108,8 +195,20 @@
   height: 52px;
   font-size: 16px;
   line-height: 22px;
+}
+.btn_get-started {
+  font-size: 20px;
+  line-height: 27px;
+  width: 171px;
+  height: 57px;
+}
+.btn_watch-video {
+  font-size: 20px;
+  line-height: 27px;
+  width: 217px;
+  height: 57px;
 
-  &:hover {
-    background: #3a68b89d;
+  svg {
+    margin-right: 10px;
   }
 }
