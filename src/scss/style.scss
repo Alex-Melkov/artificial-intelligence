@@ -294,6 +294,53 @@
       }
     }
   }
+
+  .blog {
+    width: 100%;
+    background: #020a18;
+    padding-top: 170px;
+    padding-bottom: 170px;
+    .blog__container {
+      max-width: 1190px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+
+      .blog__container__left-block {
+        display: flex;
+        align-items: center;
+        .blog__container__left-block__main {
+          .blog__container__left-block__main__title {
+            margin-bottom: 40px;
+            h2 {
+              font-weight: 700;
+              font-size: 40px;
+              line-height: 130%;
+              color: #FFFFFF;
+            }
+          }
+          .blog__container__left-block__main__text {
+            max-width: 460px;
+            p {
+              font-weight: 600;
+              font-size: 16px;
+              line-height: 160%;
+              color: #FFFFFF;
+              opacity: 0.7;
+              margin-bottom: 20px;
+
+              &:last-of-type {
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+      }
+
+      .blog__container__right-block {
+      }
+    }
+  }
 }
 
 .btn {
