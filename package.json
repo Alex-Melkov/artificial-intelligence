@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Artificial Intelligence",
   "private": "true",
+  "homepage": "https://alex-melkov.github.io/artificial-intelligence/",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "build": "cross-env NODE_ENV=production webpack --mode production",
@@ -37,6 +38,8 @@
     "webpack-dev-server": "^4.13.2"
   },
   "dependencies": {
+    "core-js": "^3.30.0",
+    "gh-pages": "^5.0.0",
     "swiper": "^9.2.0"
   }
 }

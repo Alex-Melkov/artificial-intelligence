@@ -1,0 +1,43 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    background: #3A68B8;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+  
+    &:hover {
+      background: #3a68b89d;
+    }
+  }
+  
+  .btn_authorizations {
+    width: 112px;
+    height: 52px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .btn_get-started {
+    font-size: 20px;
+    line-height: 27px;
+    width: 171px;
+    height: 57px;
+  }
+  .btn_watch-video {
+    font-size: 20px;
+    line-height: 27px;
+    width: 217px;
+    height: 57px;
+  
+    svg {
+      margin-right: 10px;
+    }
+  }
+  .btn_about {
+    font-size: 16px;
+    line-height: 22px;
+    width: 150px;
+    height: 52px;
+}

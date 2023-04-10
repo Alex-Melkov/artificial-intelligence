@@ -1,0 +1,176 @@
+.contact {
+    width: 100%;
+    background: #070f1d;
+    padding-top: 77px;
+    padding-bottom: 148px;
+    .contact__container {
+      max-width: 1140px;
+      margin: 0 auto;
+      .contact__container__main {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        .contact__container__main__contacts-block {
+          max-width: 261px;
+
+          .contact__container__main__contacts-block__logo-and-title {
+            margin-bottom: 10px;
+            h6 {
+              font-weight: 600;
+              font-size: 15.9627px;
+              line-height: 22px;
+              color: #3A68B8;
+            }
+          }
+          .contact__container__main__contacts-block__text {
+            font-family: 'Circular Std', sans-serif;
+            font-style: normal;
+            font-weight: 450;
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+            opacity: 0.6;
+            margin-bottom: 37px;
+          }
+          .contact__container__main__contacts-block__info {
+            p {
+              display: flex;
+              justify-content: start;
+              align-items: center;
+              margin-bottom: 20px;
+
+              &:last-of-type {
+                margin-bottom: 0;
+              }
+              svg {
+                margin-right: 10px;
+              }
+              span {
+                font-family: 'Circular Std', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+                color: #FFFFFF;
+              }
+            }
+          }
+        }
+
+        .contact__container__main__links-block {
+          display: flex;
+          justify-content: space-between;
+          width: 555px;
+          .contact__container__main__links-block__item {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+
+            h5 {
+              font-family: 'Circular Std', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 20px;
+              color: #FFFFFF;
+              margin-bottom: 32px;
+            }
+
+            a {
+              font-family: 'Circular Std';
+              font-style: normal;
+              font-weight: 450;
+              font-size: 14px;
+              line-height: 18px;
+              color: #FFFFFF;
+              opacity: 0.6;
+              margin-bottom: 20px;
+
+              &:hover {
+                opacity: 1;
+              }
+
+              &:last-of-type {
+                margin-bottom: 0;
+              }
+            }
+          }
+        }
+
+        .contact__container__main__social-links-block {
+          max-width: 261px;
+          .contact__container__main__social-links-block__title {
+            margin-bottom: 30px;
+            h5 {
+              font-family: 'Circular Std', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 20px;
+              color: #FFFFFF;
+            }
+          }
+          .contact__container__main__social-links-block__text {
+            font-family: 'Circular Std', sans-serif;
+            font-style: normal;
+            font-weight: 450;
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+            opacity: 0.6;
+            margin-bottom: 27px;
+          }
+          .contact__container__main__social-links-block__links-site {
+            margin-bottom: 20px;
+            a {
+              font-family: 'Circular Std', sans-serif;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 18px;
+              color: #FFFFFF;
+
+              &:hover {
+                opacity: 0.5;
+                text-decoration: underline solid #FFFFFF;
+              }
+            }
+          }
+          .contact__container__main__social-links-block__social-links {
+            margin-bottom: 48px;
+            a {
+              margin-right: 25px;
+
+              &:last-of-type {
+                margin-right: 0;
+              }
+
+              svg:hover {
+                opacity: 0.7;
+              }
+            }
+          }
+          .contact__container__main__social-links-block__language {
+            display: flex;
+            align-items: center;
+            span {
+              font-family: 'Circular Std', sans-serif;
+              font-style: normal;
+              font-weight: 450;
+              font-size: 14px;
+              line-height: 18px;
+              color: #FFFFFF;
+              margin-right: 9px;
+            }
+
+            svg {
+              &:first-of-type {
+                margin-right: 8px;
+              }
+            }
+          }
+        }
+      }
+    }
+}
